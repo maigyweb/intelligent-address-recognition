@@ -1,0 +1,23 @@
+{
+  "name": "address-recognize",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./es/index.js",
+  "type": "module",
+  "license": "MIT",
+  "repository": "git@github.com:maigyweb/intelligent-address-recognize.git",
+  "author": "maigy666@163.com",
+  "keywords": [
+    "javascript"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@rollup/plugin-babel": "^6.0.3",
+    "rollup": "^3.29.2"
+  }
+}
